@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "blogpages",
+  "info": {
+    "singularName": "blogpage",
+    "pluralName": "blogpages",
+    "displayName": "Blogpage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Blog": {
+      "displayName": "Blog",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.blog"
+    }
+  }
+}
